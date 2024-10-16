@@ -1,85 +1,122 @@
 {
+  "categories" : [
+    {"id" : 1,
+    "name" : "Angular", 
+    "description" : ""
+    },
+    {"id" : 2,
+    "name" : "CSS",
+    "description" : ""
+    }
+  ],
   "questions": [
     {
       "id": 1,
+      "idCategorie": 1,
       "questionLabel": "What is a component in Angular?"
     },
     {
       "id": 2,
+      "idCategorie": 1,
       "questionLabel": "Explain the purpose of the NgModule in Angular."
     },
     {
       "id": 3,
+      "idCategorie": 1,
       "questionLabel": "How do you create a new Angular application?"
     },
     {
       "id": 4,
+      "idCategorie": 1,
       "questionLabel": "What is data binding in Angular, and what are the different types of data binding?"
     },
     {
       "id": 5,
+      "idCategorie": 1,
       "questionLabel": "Explain the difference between {{}} (interpolation) and [property] (property binding) in Angular templates."
     },
     {
       "id": 6,
+      "idCategorie": 1,
       "questionLabel": "What is event binding in Angular, and how is it implemented?"
     },
     {
       "id": 7,
+      "idCategorie": 1,
       "questionLabel": "What is Angular CLI, and how do you use it to generate components?"
     },
     {
       "id": 8,
+      "idCategorie": 1,
       "questionLabel": "What is a directive in Angular? Can you name some built-in directives?"
     },
     {
       "id": 9,
+      "idCategorie": 1,
       "questionLabel": "Explain the purpose of the Angular router and how to configure routes in an Angular application."
     },
     {
       "id": 10,
+      "idCategorie": 1,
       "questionLabel": "What is dependency injection in Angular, and why is it important?"
     },
     {
       "id": 11,
+      "idCategorie": 1,
       "questionLabel": "How do you communicate between parent and child components in Angular?"
     },
     {
       "id": 12,
+      "idCategorie": 1,
       "questionLabel": "What is a service in Angular, and when should you use it?"
     },
     {
       "id": 13,
+      "idCategorie": 1,
       "questionLabel": "What is the purpose of the ngFor directive in Angular?"
     },
     {
       "id": 14,
+      "idCategorie": 1,
       "questionLabel": "Explain the concept of modules in Angular and their role in organizing an application."
     },
     {
       "id": 15,
+      "idCategorie": 1,
       "questionLabel": "What is Angular CLI's ng serve command used for?"
     },
     {
       "id": 16,
+      "idCategorie": 1,
       "questionLabel": "What is Angular's two-way data binding, and how does it work?"
     },
     {
       "id": 17,
+      "idCategorie": 1,
       "questionLabel": "What is Angular's trackBy function, and why is it used with ngFor?"
     },
     {
       "id": 18,
+      "idCategorie": 1,
       "questionLabel": "How can you handle HTTP requests in Angular?"
     },
     {
       "id": 19,
+      "idCategorie": 1,
       "questionLabel": "What are Angular pipes, and can you give some examples of built-in pipes?"
     },
     {
       "id": 20,
+      "idCategorie": 1,
       "questionLabel": "Explain the concept of lazy loading in Angular and when it's beneficial."
     }
+    ,
+    {
+      "id" : 21,
+      "idCategorie": 2,
+      "questionLabel": "Quel est l'acronyme de CSS ?"
+    }
+
   ],
   "answers": [
     {
@@ -481,6 +518,26 @@
       "questionId": 20,
       "answerLabel": "Lazy loading in Angular is a technique for defining routes.",
       "isCorrect": false
+    },
+    {
+      "questionId" : 21,
+      "answerLabel" : "Cascading Style Sheets",
+      "isCorrect" : true
+    },
+    {
+      "questionId" : 21,
+      "answerLabel" : "Computer Style Sheets",
+      "isCorrect" : false
+    },
+    {
+      "questionId" : 21,
+      "answerLabel" : "Colorful Style Sheets",
+      "isCorrect" : false
+    },
+    {
+      "questionId" : 21,
+      "answerLabel" : "Creative Style Sheets",
+      "isCorrect" : false
     }
   ],
   "users": [

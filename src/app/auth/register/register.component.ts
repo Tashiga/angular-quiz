@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormControl, FormGroup } from "@angular/forms";
+import { FormBuilder, FormControl, FormGroup, Validators } from "@angular/forms";
 import { AuthService } from "../auth.service";
 import { Router } from "@angular/router";
 
@@ -19,13 +19,33 @@ export class RegisterComponent implements OnInit {
 
   ngOnInit(): void {
     this.registerForm = this.fb.group({
-      username: new FormControl(''),
-      password: new FormControl(''),
+      username: new FormControl('', [Validators.required]),
+      password: new FormControl('', [
+        Validators.required,
+        Validators.minLength(4),
+        Validators.maxLength(8)
+      ]),
+      confirmPassword: new FormControl('', [
+        Validators.required,
+        Validators.minLength(4),
+        Validators.maxLength(8)
+      ])
+    }, {
+      validators: this.passwordMatchValidator
     });
   }
 
+  // Validator personnalisé pour vérifier que les mots de passe correspondent
+  passwordMatchValidator(formGroup: FormGroup) {
+    const password = formGroup.get('password')?.value;
+    const confirmPassword = formGroup.get('confirmPassword')?.value;
+    return password === confirmPassword ? null : { passwordMismatch: true };
+  }
+
   addUser() {
-    this.authService.addUser(this.registerForm.value);
-    this.router.navigate(['/login']);
+    if (this.registerForm.valid) {
+      this.authService.addUser(this.registerForm.value);
+      this.router.navigate(['/login']);
+    }
   }
 }

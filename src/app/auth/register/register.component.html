@@ -4,7 +4,14 @@
     <div class="register_form-container">
       <input type="text" placeholder="Username" class="input" formControlName="username" />
       <input type="password" placeholder="Password" class="input" formControlName="password" />
+      <input type="password" placeholder="Confirm Password" class="input" formControlName="confirmPassword" />
     </div>
-    <button class="btn">S'inscrire</button>
+
+    <!-- Utilisation des crochets pour accéder à 'passwordMismatch' -->
+    <div *ngIf="registerForm.errors?.['passwordMismatch'] && registerForm.get('confirmPassword')?.touched">
+      <p class="error">Les mots de passe ne correspondent pas</p>
+    </div>
+
+    <button class="btn" type="submit" [disabled]="registerForm.invalid">S'inscrire</button>
   </form>
 </section>

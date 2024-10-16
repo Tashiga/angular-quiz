@@ -40,6 +40,7 @@ export class QuizService {
 
   getQuizContent() {
     this.http.get('http://localhost:3000/questions').subscribe((questions: any) => {
+      console.log('testing 2 : ', questions);
       for (const question of questions) {
         this.http.get(`http://localhost:3000/answers?questionId=${question.id}`).subscribe((answers: any) => {
           this.quizContent.push({
@@ -50,6 +51,14 @@ export class QuizService {
         });
       }
     });
+  }
+
+  getCategory(idCategory: number) : string {
+    const cat: Record<number, string> ={
+      1: 'ANGULAR',
+      2: 'CSS'
+    };
+    return cat != null ? cat[idCategory] : '';
   }
 
   resetQuiz() {

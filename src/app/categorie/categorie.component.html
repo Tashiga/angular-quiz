@@ -1,0 +1,16 @@
+<div class="section">
+    <h2 class="">Choisissez une catégorie</h2>
+    <form>
+      <div class="search-box">
+        <input type="text" [(ngModel)]="research" name="search" placeholder="Rechercher une catégorie" (input)="search()" class="input">
+        <button type="button" (click)="reset()" class="">Réinitialiser</button>
+      </div>
+    </form>
+    <div class="">
+      <div *ngFor="let category of filtCategories" class="category-box">
+        <h3 class="">{{ category.name }}</h3>
+        <p>{{ category.description }}</p>
+        <button class="bnt-primary" (click)="selectedCategory(category.id)">Lancer le quiz</button>
+      </div>
+    </div>
+</div>
