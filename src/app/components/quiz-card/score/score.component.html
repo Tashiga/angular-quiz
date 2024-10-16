@@ -1,0 +1,20 @@
+<div class="section">
+    <div *ngIf="score !== null && score !== undefined">
+        <h1>Your Score is </h1>
+        <h2 [ngClass]="{
+            'very-good': score >= 8, 
+            'good': score < 8 && score >= 5, 
+            'bad': score < 5
+        }">{{score}}/10</h2>
+        <div class="tocenter">
+            <img *ngIf="score>=8" src="../../../../assets/score/success.gif" alt="Great Job!" />
+            <img *ngIf="score<8 && score>=5" src="../../../../assets/score/not_good.gif" alt="Good Job!" />
+            <img *ngIf="score<5" src="../../../../assets/score/fail.gif" alt="Try Again!" />
+        </div>
+        
+        <button (click)="nextLevel()">Quiz menu</button>
+    </div>
+    <div *ngIf="score === null || score === undefined">
+        <h1>Vous n'avez pas de score !</h1>
+    </div>
+</div>

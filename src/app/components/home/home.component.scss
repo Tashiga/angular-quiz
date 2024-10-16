@@ -1,0 +1,20 @@
+.homeSection {
+    width: 80%; /* Occupe 80% de la largeur du parent */
+    margin: 0 auto; /* Centre horizontalement l'élément */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px; /* Ajouter du padding si nécessaire */
+    background-color: #f8f9fa; /* Exemple de couleur de fond */
+    border-radius: 8px; /* Coins arrondis (optionnel) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère (optionnel) */
+}
+.homeSection h2{
+    text-align: center;
+}
+
+.margin {
+    display: grid; /* Active CSS Grid */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Ajuste le nombre de colonnes */
+    gap: 0px; /* Espacement entre les cartes */
+    width: 100%;
+}

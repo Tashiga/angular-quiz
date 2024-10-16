@@ -1,0 +1,9 @@
+<div class="homeSection">
+    <h2>Choose your level : </h2>
+    <div class="margin">
+        <div *ngFor="let quiz of quizlevel" class="margin">
+            <app-quiz-card [quizLevel]="quiz"></app-quiz-card>
+        </div>
+    </div>
+</div>
+

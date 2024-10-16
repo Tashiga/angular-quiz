@@ -1,0 +1,17 @@
+<div class="body">
+    <div class="flex">
+        <button (click)="navigateToBack()">Back</button>
+    </div>
+    <h1>{{quizLevel.quizName}} - Quiz</h1>
+    <div class="questions-container">
+        <div *ngFor="let question of quizQuestions; let i = index" class="question-box">
+            <app-question [question]="question" [questionNumber]="i" 
+            [checked]="selectedAnswers[i]" 
+            (selectedAnswersFromQuestion)="handleSelectedAnswers($event)"></app-question>
+        </div>
+    </div>
+    <div class="flex">
+        <button (click)="initAnswer()">Reinitialiser les réponses</button>
+        <button (click)="submitAnswer()" class="toRigth">Envoyer</button>
+    </div>
+</div>

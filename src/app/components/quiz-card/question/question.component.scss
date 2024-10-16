@@ -1,0 +1,25 @@
+h2 {
+    font-size: 1.1em; /* Ajuste la taille de la police */
+    white-space: normal; /* Permet le retour à la ligne */
+    overflow: visible; /* Permet au texte de dépasser */
+    word-wrap: break-word; /* Coupe le mot et passe à la ligne suivante s'il est trop long */
+    margin: 0 0 10px 0; /* Ajoute un peu d'espace en bas pour séparer les réponses */
+}
+
+ul {
+    list-style-type: none; /* Supprime les puces de la liste */
+    padding: 0; /* Supprime le padding par défaut */
+    display: flex; /* Aligne les réponses en ligne */
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne si nécessaire */
+    justify-content: space-between; /* Espace égal entre les éléments */
+}
+
+li {
+    flex: 0 0 48%; /* Chaque élément occupe 48% de la largeur de son conteneur */
+    margin-bottom: 10px; /* Espace en bas des réponses */
+}
+
+label {
+    display: flex;
+    align-items: center; /* Aligne le texte et la case à cocher verticalement */
+}

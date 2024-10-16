@@ -1,0 +1,38 @@
+
+header {
+    color: white; /* Couleur du texte */
+    margin: 0;
+    padding: 2px;
+    border-bottom: 3px solid black;
+    // margin-left: -6px;
+  }
+  
+  .container {
+    display: flex; /* Flexbox pour aligner les éléments */
+    justify-content: space-between; /* Espacer les éléments */
+    align-items: center; /* Aligner verticalement */
+    width: 100%;
+  }
+  .container a{
+    width: 100%;
+    text-decoration: none;
+  }
+  
+  .logo {
+    display: flex; /* Flexbox pour aligner le logo et le titre */
+    align-items: center; /* Alignement vertical */
+    width: 100%;
+  }
+  
+  .logo img {
+    width: 100px; /* Définit la largeur du logo */
+    height: auto; /* Garde les proportions */
+    margin-right: 5%; /* Espacement entre le logo et le titre */
+    margin-left: 2%;
+  }
+  
+  .logo h1{
+    text-align: center;
+    margin-left: 30%;
+    color: black;
+  }

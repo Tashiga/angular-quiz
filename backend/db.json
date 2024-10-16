@@ -1,560 +1,416 @@
 {
-  "categories" : [
-    {"id" : 1,
-    "name" : "Angular", 
-    "description" : ""
+    "questions": [
+    {
+      "quizId" : 1,
+      "question": "Qui est le créateur de l'anime Naruto ?",
+      "reponses": ["Masashi Kishimoto", "Akira Toriyama","Yoshihiro Togashi","Eiichiro Oda"],
+      "answers": ["Masashi Kishimoto"]
     },
-    {"id" : 2,
-    "name" : "CSS",
-    "description" : ""
+    {
+      "quizId" : 1,
+      "question": "Quel est le nom du village natal de Naruto ?",
+      "reponses": ["Kirigakure", "Sunagakure", "Kumogakure", "Konohagakure"],
+      "answers": ["Konohagakure"]
+    },
+    {
+      "quizId" : 1,
+      "question": "Quel est le rêve de Naruto ?",
+      "reponses": ["Devenir riche", "Trouver un mentor", "Devenir un ninja de classe S", "Devenir Hokage"],
+      "answers": ["Devenir Hokage"]
+    },
+    {
+      "quizId" : 1,
+      "question": "Quel bijū Naruto abrite-t-il ?",
+      "reponses": ["Kyūbi", "Hachibi", "Sanbi", "Shukaku"],
+      "answers": ["Kyūbi"]
+    },
+    {
+      "quizId" : 1,
+      "question": "Qui est le meilleur ami de Naruto ?",
+      "reponses": ["Gaara", "Kakashi Hatake", "Sasuke Uchiha", "Sakura Haruno"],
+      "answers": ["Sasuke Uchiha"]
+    },
+    {
+      "quizId" : 1,
+      "question": "Quelle technique Naruto utilise-t-il pour invoquer les grenouilles ?",
+      "reponses": ["Kuchiyose no Jutsu", "Kage Bunshin no Jutsu", "Rasengan", "Chōōdō Kage Bunshin no Jutsu"],
+      "answers": ["Kuchiyose no Jutsu"]
+    },
+    {
+      "quizId" : 1,
+      "question": "Quel est le nom du mentor de Naruto pendant sa formation ?",
+      "reponses": ["Minato Namikaze", "Jiraiya", "Orochimaru", "Kakashi Hatake"],
+      "answers": ["Jiraiya"]
+    },
+    {
+      "quizId" : 1,
+      "question": "Quel est le nom de l'équipe de Naruto ?",
+      "reponses": ["Équipe 8", "Équipe 7", "Équipe 10", "Équipe Guy"],
+      "answers": ["Équipe 7"]
+    },
+    {
+      "quizId" : 1,
+      "question": "Qui est la première personne à reconnaître le potentiel de Naruto ?",
+      "reponses": ["Jiraiya", "Kakashi Hatake", "Iruka Umino", "Sakura Haruno"],
+      "answers": ["Iruka Umino"]
+    },
+    {
+      "quizId" : 1,
+      "question": "Qui est le principal antagoniste dans la première partie de Naruto ?",
+      "reponses": ["Orochimaru", "Itachi Uchiha", "Madara Uchiha", "Pain"],
+      "answers": ["Orochimaru"]
+    },
+    {
+      "quizId" : 1,
+      "question": "Quelle technique est connue sous le nom de 'Rasengan' ?",
+      "reponses": ["Une technique de déplacement", "Une technique de ninjutsu", "Une technique de genjutsu", "Une technique de taijutsu"],
+      "answers": ["Une technique de ninjutsu"]
+    },
+    {
+        "quizId" : 2,
+        "question": "Quel est le nom de la technique de l'ombre que Naruto utilise fréquemment ?",
+        "reponses": ["Rasengan", "Kage Bunshin no Jutsu", "Henge no Jutsu", "Shuriken Jutsu"],
+        "answers": ["Kage Bunshin no Jutsu"]
+    },
+    {
+        "quizId" : 2,
+        "question": "Qui est le leader de l'Akatsuki pendant la plupart de la série ?",
+        "reponses": ["Obito Uchiha", "Pain (Nagato)", "Sasori", "Madara Uchiha"],
+        "answers": ["Pain (Nagato)"]
+    },
+    {
+        "quizId" : 2,
+        "question": "Quel est le nom de l'enseignant de Naruto dans l'art du Rasengan ?",
+        "reponses": ["Jiraiya", "Kakashi Hatake", "Orochimaru", "Tsunade"],
+        "answers": ["Jiraiya"]
+    },
+    {
+        "quizId" : 2,
+        "question": "Quel animal accompagne Naruto durant son parcours ninja ?",
+        "reponses": ["Un chat", "Un loup", "Un rat", "Un crapaud"],
+        "answers": ["Un crapaud"]
+    },
+    {
+        "quizId" : 2,
+        "question": "Qui est le membre le plus âgé de l'équipe 7 ?",
+        "reponses": ["Naruto Uzumaki", "Sakura Haruno", "Sasuke Uchiha", "Kakashi Hatake"],
+        "answers": ["Kakashi Hatake"]
+    },
+    {
+        "quizId" : 2,
+        "question": "Quel est le nom de la bijuu à une queue ?",
+        "reponses": ["Shukaku", "Kyubi", "Matatabi", "Isobu"],
+        "answers": ["Shukaku"]
+    },
+    {
+        "quizId" : 2,
+        "question": "Quel clan est connu pour sa capacité à utiliser le Sharingan ?",
+        "reponses": ["Uchiha", "Hyuga", "Nara", "Yamanaka"],
+        "answers": ["Uchiha"]
+    },
+    {
+        "quizId" : 2,
+        "question": "Quel est le nom de la première technique de Naruto utilisée contre Neji ?",
+        "reponses": ["Rasenshuriken", "Oodama Rasengan", "Rasengan", "Kage Bunshin"],
+        "answers": ["Rasengan"]
+    },
+    {
+        "quizId" : 2,
+        "question": "Quel est le but de l'Akatsuki ?",
+        "reponses": ["Obtenir les bijuu", "Créer un nouveau village", "Tuer tous les ninjas", "Devenir Hokage"],
+        "answers": ["Obtenir les bijuu"]
+    },
+    {
+        "quizId" : 2,
+        "question": "Quel est le nom de la technique secrète de Tsunade ?",
+        "reponses": ["Sōzōsuke", "Kinjutsu", "Mitotic Regeneration", "Shunshin no Jutsu"],
+        "answers": ["Mitotic Regeneration"]
+    },
+    {
+      "quizId": 3,
+      "question": "Quelle est la couleur des yeux de Naruto ?",
+      "reponses": ["Bleus", "Violets", "Bruns", "Noirs"],
+      "answers": ["Bleus"]
+    },
+    {
+      "quizId": 3,
+      "question": "Qui est le père de Naruto ?",
+      "reponses": ["Minato Namikaze", "Kushina Uzumaki", "Jiraiya", "Tsunade"],
+      "answers": ["Minato Namikaze"]
+    },
+    {
+      "quizId": 3,
+      "question": "Quel est le nom de l'ennemi principal de Naruto dans la série Shippuden ?",
+      "reponses": ["Madara Uchiha", "Obito Uchiha", "Pain", "Zetsu"],
+      "answers": ["Pain"]
+    },
+    {
+      "quizId": 3,
+      "question": "Quel est le nom de la technique d'invocation utilisée par Jiraiya ?",
+      "reponses": ["Kuchiyose no Jutsu", "Rasengan", "Chōōdō Kage Bunshin no Jutsu", "Henge no Jutsu"],
+      "answers": ["Kuchiyose no Jutsu"]
+    },
+    {
+      "quizId": 3,
+      "question": "Quel jutsu Naruto utilise-t-il pour se déplacer rapidement ?",
+      "reponses": ["Shunshin no Jutsu", "Kage Bunshin no Jutsu", "Rasenshuriken", "Henge no Jutsu"],
+      "answers": ["Shunshin no Jutsu"]
+    },
+    {
+      "quizId": 3,
+      "question": "Qui est le chef du clan Uchiha ?",
+      "reponses": ["Sasuke Uchiha", "Itachi Uchiha", "Madara Uchiha", "Obito Uchiha"],
+      "answers": ["Madara Uchiha"]
+    },
+    {
+      "quizId": 3,
+      "question": "Quelle est la principale technique de Sasuke Uchiha ?",
+      "reponses": ["Chidori", "Rasengan", "Kage Bunshin no Jutsu", "Sharingan"],
+      "answers": ["Chidori"]
+    },
+    {
+      "quizId": 3,
+      "question": "Qui est le professeur de l'équipe 7 lors de leur première mission ?",
+      "reponses": ["Kakashi Hatake", "Iruka Umino", "Jiraiya", "Tsunade"],
+      "answers": ["Kakashi Hatake"]
+    },
+    {
+      "quizId": 3,
+      "question": "Quelle est la spécialité de l'équipe 10 ?",
+      "reponses": ["Genjutsu", "Ninjutsu", "Taijutsu", "Ninjutsu médical"],
+      "answers": ["Ninjutsu"]
+    },
+    {
+      "quizId": 3,
+      "question": "Quel est le pouvoir de l'Akatsuki ?",
+      "reponses": ["Obtenir les bijuu", "Dominer le monde", "Faire la paix", "Ressusciter les morts"],
+      "answers": ["Obtenir les bijuu"]
+    },
+    {
+        "quizId": 4, 
+        "question": "Quel est le nom de la technique de Sasuke qui lui permet d'utiliser des éclairs ?", 
+        "reponses": ["Chidori", "Rasengan", "Amaterasu", "Susanoo"], 
+        "answers": ["Chidori"]
+    },
+    {
+        "quizId": 4, 
+        "question": "Qui est la mère de Naruto ?", 
+        "reponses": ["Kushina Uzumaki", "Hinata Hyuga", "Tsunade", "Sakura Haruno"], 
+        "answers": ["Kushina Uzumaki"]
+    },
+    {
+        "quizId": 4, 
+        "question": "Quel est le nom du jutsu interdit que Naruto apprend de Jiraiya ?", 
+        "reponses": ["Rasenshuriken", "Oodama Rasengan", "Harem no Jutsu", "Kuchiyose no Jutsu"], 
+        "answers": ["Harem no Jutsu"]
+    },
+    {
+        "quizId": 4, 
+        "question": "Quel est le pouvoir du Sharingan ?", 
+        "reponses": ["Voir les mouvements", "Contrôler les esprits", "Lire les pensées", "Détecter les ninjas"], 
+        "answers": ["Voir les mouvements"]
+    },
+    {
+       "quizId": 4, 
+       "question": "Quel est le nom de l'ennemi de Naruto qui a le pouvoir de contrôler la mort ?", 
+       "reponses": ["Orochimaru", "Nagato", "Madara Uchiha", "Obito Uchiha"], 
+       "answers": ["Nagato"]},
+    {
+        "quizId": 4, 
+        "question": "Quel est le nom de l'artefact que Naruto utilise pour se transformer en Sage ?", 
+        "reponses": ["Les baguettes de sagesse", "Le mode Sage", "Le mode Kurama", "Le chakra des bijuu"], 
+        "answers": ["Le mode Sage"]
+    },
+    {
+        "quizId": 4, 
+        "question": "Qui est l'héritier du clan Uzumaki ?", 
+        "reponses": ["Naruto", "Sasuke", "Sakura", "Kushina"], 
+        "answers": ["Naruto"]
+    },
+    {
+        "quizId": 4, 
+        "question": "Quel est le nom du mentor de Sasuke après la mort de Kakashi ?", 
+        "reponses": ["Naruto", "Orochimaru", "Jiraiya", "Tsunade"], 
+        "answers": ["Orochimaru"]
+    },
+    {
+        "quizId": 4, 
+        "question": "Quel est le nom de la technique secrète de Minato Namikaze ?", 
+        "reponses": ["Hiraishin no Jutsu", "Kage Bunshin no Jutsu", "Rasengan", "Oodama Rasengan"], 
+        "answers": ["Hiraishin no Jutsu"]
+    },
+    {
+        "quizId": 4, 
+        "question": "Quel bijuu possède le pouvoir de contrôler l'eau ?", 
+        "reponses": ["Shukaku", "Hachibi", "Sanbi", "Kyūbi"], 
+        "answers": ["Sanbi"]
+    },
+    {
+        "quizId": 5, 
+        "question": "Quel est le nom du jutsu qui permet à Naruto d'invoquer les grenouilles géantes ?", 
+        "reponses": ["Kuchiyose no Jutsu", "Tobikage no Jutsu", "Mugen Sōjutsu", "Hōton"], 
+        "answers": ["Kuchiyose no Jutsu"]
+    },
+    {
+        "quizId": 5, 
+        "question": "Qui a détruit le village de Konoha lors de l'attaque de l'Akatsuki ?", 
+        "reponses": ["Obito Uchiha", "Pain", "Madara Uchiha", "Zetsu"], 
+        "answers": ["Pain"]
+    },
+    {
+        "quizId": 5, 
+        "question": "Quel est le nom de la technique utilisée par Sasuke pour invoquer le serpent géant ?", 
+        "reponses": ["Kuchiyose no Jutsu", "Chidori", "Kage Bunshin", "Rasengan"], 
+        "answers": ["Kuchiyose no Jutsu"]
+    },
+    {
+        "quizId": 5, 
+        "question": "Quel est le secret derrière le pouvoir d'Itachi Uchiha ?", 
+        "reponses": ["Mangekyō Sharingan", "Rinnegan", "Sharingan", "Byakugan"], 
+        "answers": ["Mangekyō Sharingan"]
+    },
+    {
+        "quizId": 5, 
+        "question": "Qui est le premier utilisateur du Rinnegan ?", 
+        "reponses": ["Sage des Six Chemins", "Hagoromo Ōtsutsuki", "Kaguya Ōtsutsuki", "Madara Uchiha"], 
+        "answers": ["Hagoromo Ōtsutsuki"]
+    },
+    {
+        "quizId": 5, 
+        "question": "Quel est le nom de la technique qui permet à Naruto de fusionner avec Kurama ?", 
+        "reponses": ["Kurama Mode", "Rasenshuriken", "Kage Bunshin", "Sage Mode"], 
+        "answers": ["Kurama Mode"]
+    },
+    {
+        "quizId": 5, 
+        "question": "Quel est le but ultime d'Obito Uchiha ?", 
+        "reponses": ["Créer un nouveau monde", "Devenir Hokage", "Obtenir tous les bijuu", "Vaincre Naruto"], 
+        "answers": ["Créer un nouveau monde"]
+    },
+    {
+        "quizId": 5, 
+        "question": "Quel est le nom de l'ennemi que Naruto affronte à la fin de la série ?", 
+        "reponses": ["Sasuke Uchiha", "Kaguya Ōtsutsuki", "Madara Uchiha", "Zetsu"], 
+        "answers": ["Kaguya Ōtsutsuki"]
+    },
+    {
+        "quizId": 5, 
+        "question": "Quel est le jutsu signature de Jiraiya ?", 
+        "reponses": ["Rasengan", "Tobikage no Jutsu", "Oodama Rasengan", "Kuchiyose no Jutsu"], 
+        "answers": ["Rasengan"]
+    },
+    {
+        "quizId": 5, 
+        "question": "Qui a scellé le chakra de la bête à neuf queues en Naruto ?", 
+        "reponses": ["Minato Namikaze", "Kushina Uzumaki", "Tsunade", "Jiraiya"], 
+        "answers": ["Minato Namikaze"]
+    },
+    {
+        "quizId": 6, 
+        "question": "Quel est le nom de la technique utilisée par Kaguya Ōtsutsuki pour voyager entre les dimensions ?", 
+        "reponses": ["Kamen no Jutsu", "Shinra Tensei", "Kinjutsu", "Dōjutsu"], 
+        "answers": ["Dōjutsu"]
+    },
+    {
+        "quizId": 6, 
+        "question": "Quel est le nom du jutsu de contrôle mental utilisé par Shin Uchiha ?", 
+        "reponses": ["Genjutsu", "Shinra Tensei", "Kotoamatsukami", "Izanagi"], 
+        "answers": ["Genjutsu"]
+    },
+    {
+        "quizId": 6, 
+        "question": "Qui a créé le Tsuki no Me keikaku ?", 
+        "reponses": ["Obito Uchiha", "Madara Uchiha", "Kaguya Ōtsutsuki", "Zetsu"], 
+        "answers": ["Madara Uchiha"]
+    },
+    {
+        "quizId": 6, 
+        "question": "Quel est le nom de la technique de Kaguya qui lui permet de manipuler le temps ?", 
+        "reponses": ["Amenominaka", "Kamen no Jutsu", "Shinra Tensei", "Otsutsuki"], 
+        "answers": ["Amenominaka"]
+    },
+    {
+        "quizId": 6, 
+        "question": "Quel est le pouvoir du Rinne Sharingan ?", 
+        "reponses": ["Contrôler les esprits", "Voyager dans le temps", "Manipuler l'espace-temps", "Créer des dimensions"], 
+        "answers": ["Manipuler l'espace-temps"]
+    },
+    {
+        "quizId": 6, 
+        "question": "Qui est le Sage des Six Chemins ?", 
+        "reponses": ["Hagoromo Ōtsutsuki", "Kaguya Ōtsutsuki", "Naruto Uzumaki", "Sasuke Uchiha"], 
+        "answers": ["Hagoromo Ōtsutsuki"]
+    },
+    {
+        "quizId": 6, 
+        "question": "Quel est le jutsu de résurrection de Madara Uchiha ?", 
+        "reponses": ["Edo Tensei", "Rinne Tensei", "Shinra Tensei", "Kinjutsu"], 
+        "answers": ["Edo Tensei"]
+    },
+    {
+        "quizId": 6, 
+        "question": "Quel est le véritable but de Kaguya Ōtsutsuki ?", 
+        "reponses": ["Dévorer le chakra", "Créer un monde parfait", "Dominer le monde", "Tuer tous les ninjas"], 
+        "answers": ["Dévorer le chakra"]
+    },
+    {
+        "quizId": 6, 
+        "question": "Qui est le personnage qui a eu accès au Rinnegan après avoir fusionné avec le chakra de Kaguya ?", 
+        "reponses": ["Madara Uchiha", "Obito Uchiha", "Sasuke Uchiha", "Naruto Uzumaki"], 
+        "answers": ["Madara Uchiha"]
+    },
+    {
+        "quizId": 6, 
+        "question": "Quel est le nom de la technique ultime de Naruto dans Boruto ?", 
+        "reponses": ["Baryon Mode", "Kurama Mode", "Rasenshuriken", "Sage Mode"], 
+        "answers": ["Baryon Mode"]
     }
-  ],
-  "questions": [
+    ],
+    
+    "quizLevel": [
+        {
+            "quizId": 1,
+            "level": "EASY",
+            "levelNumber": 0,
+            "quizName": "Level 0"
+        },
+        {
+            "quizId": 2,
+            "level": "EASY",
+            "levelNumber": 1,
+            "quizName": "Level 1"
+        },
+        {
+            "quizId": 3,
+            "level": "MEDIUM",
+            "levelNumber": 2,
+            "quizName": "Level 2"
+        },
+        {
+            "quizId": 4,
+            "level": "MEDIUM",
+            "levelNumber": 3,
+            "quizName": "Level 3"
+        },
+        {
+            "quizId": 5,
+            "level": "HARD",
+            "levelNumber": 4,
+            "quizName": "Level 4"
+        },
+        {
+            "quizId": 6,
+            "level": "HARD",
+            "levelNumber": 5,
+            "quizName": "Level 5"
+        }
+    ],
+    "users" : [
     {
-      "id": 1,
-      "idCategorie": 1,
-      "questionLabel": "What is a component in Angular?"
-    },
-    {
-      "id": 2,
-      "idCategorie": 1,
-      "questionLabel": "Explain the purpose of the NgModule in Angular."
-    },
-    {
-      "id": 3,
-      "idCategorie": 1,
-      "questionLabel": "How do you create a new Angular application?"
-    },
-    {
-      "id": 4,
-      "idCategorie": 1,
-      "questionLabel": "What is data binding in Angular, and what are the different types of data binding?"
-    },
-    {
-      "id": 5,
-      "idCategorie": 1,
-      "questionLabel": "Explain the difference between {{}} (interpolation) and [property] (property binding) in Angular templates."
-    },
-    {
-      "id": 6,
-      "idCategorie": 1,
-      "questionLabel": "What is event binding in Angular, and how is it implemented?"
-    },
-    {
-      "id": 7,
-      "idCategorie": 1,
-      "questionLabel": "What is Angular CLI, and how do you use it to generate components?"
-    },
-    {
-      "id": 8,
-      "idCategorie": 1,
-      "questionLabel": "What is a directive in Angular? Can you name some built-in directives?"
-    },
-    {
-      "id": 9,
-      "idCategorie": 1,
-      "questionLabel": "Explain the purpose of the Angular router and how to configure routes in an Angular application."
-    },
-    {
-      "id": 10,
-      "idCategorie": 1,
-      "questionLabel": "What is dependency injection in Angular, and why is it important?"
-    },
-    {
-      "id": 11,
-      "idCategorie": 1,
-      "questionLabel": "How do you communicate between parent and child components in Angular?"
-    },
-    {
-      "id": 12,
-      "idCategorie": 1,
-      "questionLabel": "What is a service in Angular, and when should you use it?"
-    },
-    {
-      "id": 13,
-      "idCategorie": 1,
-      "questionLabel": "What is the purpose of the ngFor directive in Angular?"
-    },
-    {
-      "id": 14,
-      "idCategorie": 1,
-      "questionLabel": "Explain the concept of modules in Angular and their role in organizing an application."
-    },
-    {
-      "id": 15,
-      "idCategorie": 1,
-      "questionLabel": "What is Angular CLI's ng serve command used for?"
-    },
-    {
-      "id": 16,
-      "idCategorie": 1,
-      "questionLabel": "What is Angular's two-way data binding, and how does it work?"
-    },
-    {
-      "id": 17,
-      "idCategorie": 1,
-      "questionLabel": "What is Angular's trackBy function, and why is it used with ngFor?"
-    },
-    {
-      "id": 18,
-      "idCategorie": 1,
-      "questionLabel": "How can you handle HTTP requests in Angular?"
-    },
-    {
-      "id": 19,
-      "idCategorie": 1,
-      "questionLabel": "What are Angular pipes, and can you give some examples of built-in pipes?"
-    },
-    {
-      "id": 20,
-      "idCategorie": 1,
-      "questionLabel": "Explain the concept of lazy loading in Angular and when it's beneficial."
+        "idUser" : 1,
+        "userName": "Admin",
+        "email": "admin@gmail.com",
+        "password": "admin"
     }
-    ,
-    {
-      "id" : 21,
-      "idCategorie": 2,
-      "questionLabel": "Quel est l'acronyme de CSS ?"
-    }
-
-  ],
-  "answers": [
-    {
-      "questionId": 1,
-      "answerLabel": "A reusable building block for the user interface",
-      "isCorrect": true
-    },
-    {
-      "questionId": 1,
-      "answerLabel": "A style in Angular",
-      "isCorrect": false
-    },
-    {
-      "questionId": 1,
-      "answerLabel": "A service for handling HTTP requests",
-      "isCorrect": false
-    },
-    {
-      "questionId": 1,
-      "answerLabel": "A routing configuration",
-      "isCorrect": false
-    },
-    {
-      "questionId": 2,
-      "answerLabel": "NgModule is used to declare and configure modules in Angular applications.",
-      "isCorrect": true
-    },
-    {
-      "questionId": 2,
-      "answerLabel": "NgModule is a component in Angular.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 2,
-      "answerLabel": "NgModule is used for data binding in Angular.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 2,
-      "answerLabel": "NgModule is a directive in Angular.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 3,
-      "answerLabel": "You can create a new Angular application using the Angular CLI by running 'ng new app-name'.",
-      "isCorrect": true
-    },
-    {
-      "questionId": 3,
-      "answerLabel": "You can create a new Angular application by writing HTML and CSS files.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 3,
-      "answerLabel": "You can create a new Angular application using pure JavaScript.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 3,
-      "answerLabel": "You can create a new Angular application using Python.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 4,
-      "answerLabel": "Data binding in Angular is a mechanism for synchronizing data between the component and the view.",
-      "isCorrect": true
-    },
-    {
-      "questionId": 4,
-      "answerLabel": "Data binding in Angular is used for creating components.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 4,
-      "answerLabel": "Data binding in Angular is a routing feature.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 4,
-      "answerLabel": "Data binding in Angular is only available for services.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 5,
-      "answerLabel": "{{}} (interpolation) is used for displaying dynamic data in the template.",
-      "isCorrect": true
-    },
-    {
-      "questionId": 5,
-      "answerLabel": "[property] (property binding) is used for displaying dynamic data in the template.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 5,
-      "answerLabel": "{{}} (interpolation) is used for creating CSS styles.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 5,
-      "answerLabel": "[property] (property binding) is used for creating services.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 6,
-      "answerLabel": "Event binding in Angular is used to capture and respond to user interactions like clicks and keystrokes.",
-      "isCorrect": true
-    },
-    {
-      "questionId": 6,
-      "answerLabel": "Event binding in Angular is used for defining component styles.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 6,
-      "answerLabel": "Event binding in Angular is used for defining routes.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 6,
-      "answerLabel": "Event binding in Angular is used for dependency injection.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 7,
-      "answerLabel": "Angular CLI (Command Line Interface) is a command-line tool for creating, building, and deploying Angular applications.",
-      "isCorrect": true
-    },
-    {
-      "questionId": 7,
-      "answerLabel": "Angular CLI is a component in Angular applications.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 7,
-      "answerLabel": "Angular CLI is a directive in Angular applications.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 7,
-      "answerLabel": "Angular CLI is a service for handling HTTP requests.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 8,
-      "answerLabel": "A directive in Angular is a marker on a DOM element that tells Angular to do something with that element.",
-      "isCorrect": true
-    },
-    {
-      "questionId": 8,
-      "answerLabel": "A directive in Angular is a component.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 8,
-      "answerLabel": "A directive in Angular is a service.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 8,
-      "answerLabel": "A directive in Angular is a module.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 9,
-      "answerLabel": "The Angular router is a library for navigating between views and components.",
-      "isCorrect": true
-    },
-    {
-      "questionId": 9,
-      "answerLabel": "The Angular router is used for handling HTTP requests.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 9,
-      "answerLabel": "The Angular router is used for data binding in Angular.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 9,
-      "answerLabel": "The Angular router is used for event binding in Angular.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 10,
-      "answerLabel": "Dependency injection in Angular is a design pattern used to provide instances of classes with their dependencies.",
-      "isCorrect": true
-    },
-    {
-      "questionId": 10,
-      "answerLabel": "Dependency injection in Angular is a way to inject styles into components.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 10,
-      "answerLabel": "Dependency injection in Angular is a way to create routes in an application.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 10,
-      "answerLabel": "Dependency injection in Angular is used for data binding.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 11,
-      "answerLabel": "Communication between parent and child components in Angular can be achieved through input properties and output events.",
-      "isCorrect": true
-    },
-    {
-      "questionId": 11,
-      "answerLabel": "Communication between parent and child components in Angular is not possible.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 11,
-      "answerLabel": "Communication between parent and child components in Angular can only be done using services.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 11,
-      "answerLabel": "Communication between parent and child components in Angular can only be done using event binding.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 12,
-      "answerLabel": "A service in Angular is a class that provides specific functionality and can be injected into components and other services.",
-      "isCorrect": true
-    },
-    {
-      "questionId": 12,
-      "answerLabel": "A service in Angular is a type of component.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 12,
-      "answerLabel": "A service in Angular is a type of directive.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 12,
-      "answerLabel": "A service in Angular is a type of module.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 13,
-      "answerLabel": "The ngFor directive in Angular is used for iterating over a list of items and rendering them in the template.",
-      "isCorrect": true
-    },
-    {
-      "questionId": 13,
-      "answerLabel": "The ngFor directive in Angular is used for defining routes.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 13,
-      "answerLabel": "The ngFor directive in Angular is used for handling HTTP requests.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 13,
-      "answerLabel": "The ngFor directive in Angular is used for event binding.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 14,
-      "answerLabel": "Modules in Angular are used to organize the application into cohesive blocks of functionality.",
-      "isCorrect": true
-    },
-    {
-      "questionId": 14,
-      "answerLabel": "Modules in Angular are used for data binding.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 14,
-      "answerLabel": "Modules in Angular are used for routing configuration.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 14,
-      "answerLabel": "Modules in Angular are used for handling HTTP requests.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 15,
-      "answerLabel": "Angular CLI's 'ng serve' command is used to compile and serve an Angular application locally for development purposes.",
-      "isCorrect": true
-    },
-    {
-      "questionId": 15,
-      "answerLabel": "Angular CLI's 'ng serve' command is used to deploy an Angular application to a production server.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 15,
-      "answerLabel": "Angular CLI's 'ng serve' command is used for data binding.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 15,
-      "answerLabel": "Angular CLI's 'ng serve' command is used for event binding.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 16,
-      "answerLabel": "Angular's two-way data binding combines property binding and event binding to automatically keep the view and the component data in sync.",
-      "isCorrect": true
-    },
-    {
-      "questionId": 16,
-      "answerLabel": "Angular's two-way data binding is used for routing configuration.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 16,
-      "answerLabel": "Angular's two-way data binding is used for dependency injection.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 16,
-      "answerLabel": "Angular's two-way data binding is used for handling HTTP requests.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 17,
-      "answerLabel": "Angular's trackBy function is used to improve the performance of ngFor by identifying unique items in the iteration.",
-      "isCorrect": true
-    },
-    {
-      "questionId": 17,
-      "answerLabel": "Angular's trackBy function is used for defining routes.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 17,
-      "answerLabel": "Angular's trackBy function is used for event binding.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 17,
-      "answerLabel": "Angular's trackBy function is used for dependency injection.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 18,
-      "answerLabel": "HTTP requests in Angular can be handled using the HttpClient module to send requests and receive responses from a server.",
-      "isCorrect": true
-    },
-    {
-      "questionId": 18,
-      "answerLabel": "HTTP requests in Angular can be handled using the ngFor directive.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 18,
-      "answerLabel": "HTTP requests in Angular can be handled using dependency injection.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 18,
-      "answerLabel": "HTTP requests in Angular can be handled using the trackBy function.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 19,
-      "answerLabel": "Angular pipes are used for transforming and formatting data in templates.",
-      "isCorrect": true
-    },
-    {
-      "questionId": 19,
-      "answerLabel": "Angular pipes are used for defining routes.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 19,
-      "answerLabel": "Angular pipes are used for event binding.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 19,
-      "answerLabel": "Angular pipes are used for dependency injection.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 20,
-      "answerLabel": "Lazy loading in Angular is a technique for loading modules only when they are needed, improving application performance.",
-      "isCorrect": true
-    },
-    {
-      "questionId": 20,
-      "answerLabel": "Lazy loading in Angular is a technique for handling HTTP requests.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 20,
-      "answerLabel": "Lazy loading in Angular is a technique for event binding.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 20,
-      "answerLabel": "Lazy loading in Angular is a technique for defining routes.",
-      "isCorrect": false
-    },
-    {
-      "questionId" : 21,
-      "answerLabel" : "Cascading Style Sheets",
-      "isCorrect" : true
-    },
-    {
-      "questionId" : 21,
-      "answerLabel" : "Computer Style Sheets",
-      "isCorrect" : false
-    },
-    {
-      "questionId" : 21,
-      "answerLabel" : "Colorful Style Sheets",
-      "isCorrect" : false
-    },
-    {
-      "questionId" : 21,
-      "answerLabel" : "Creative Style Sheets",
-      "isCorrect" : false
-    }
-  ],
-  "users": [
-    {
-      "id": 1,
-      "username": "admin",
-      "password": "admin"
-    },
-    {
-      "id": 2,
-      "username": "user",
-      "password": "user"
-    },
-    {
-      "username": "test",
-      "password": "test",
-      "id": 3
-    }
-  ]
+    ]
 }

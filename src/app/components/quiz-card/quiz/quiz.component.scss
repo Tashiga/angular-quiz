@@ -1,0 +1,59 @@
+.body {
+    width: 80%; /* Occupe 80% de la largeur du parent */
+    margin: 20px auto; /* Centre horizontalement l'élément avec des marges en haut et en bas */
+    padding: 20px; /* Ajouter du padding si nécessaire */
+    background-color: #f8f9fa; /* Exemple de couleur de fond */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+h1 {
+    text-align: center; /* Centre le titre */
+    color: #333; /* Couleur du texte */
+    font-size: 28px; /* Taille du texte */
+    margin-bottom: 30px; /* Espace en dessous du titre */
+}
+
+.questions-container {
+    display: flex;
+    flex-direction: column; /* Aligne les questions verticalement */
+    gap: 15px; /* Espacement entre les questions */
+    margin-bottom: 30px; /* Espace en dessous de la liste de questions */
+}
+
+.question-box {
+    background-color: #ffffff; /* Couleur de fond pour les questions */
+    padding: 15px;
+    border: 1px solid #e0e0e0; /* Bordure légère */
+    border-radius: 6px; /* Coins arrondis */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.flex{
+    display: flex; /* Active Flexbox */
+    justify-content: space-between; /* Espace entre les boutons */
+    margin-top: 20px; /* Espacement au-dessus des boutons */
+}
+
+button {
+    padding: 10px 20px; /* Taille du bouton */
+    margin-right: 10px; /* Espace entre les boutons */
+    background-color: #343a40; /* Couleur de fond noire (dark gray) */
+    color: #ffffff; /* Couleur du texte */
+    border: none; /* Retirer les bordures par défaut */
+    border-radius: 4px; /* Coins arrondis */
+    cursor: pointer; /* Changer le curseur en pointeur */
+    transition: background-color 0.3s ease; /* Transition pour un effet plus fluide */
+}
+
+button:hover {
+    background-color: #212529; /* Couleur de fond au survol (darker gray) */
+}
+
+button:focus {
+    outline: none; /* Retire le contour par défaut lorsqu'un bouton est focus */
+}
+
+.toRigth{
+    float: right;
+}
